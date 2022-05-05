@@ -95,6 +95,11 @@
     background-image: url(../../../assets/img/core-img/pin.png);
 
   }
+  @media only screen and (max-width: 900px) {
+      div .hero-section {
+          width: 100vw;
+      }
+  }
 
 .hero-section{
     position: relative;
@@ -116,7 +121,7 @@
     .hero-section.fullwidth-header{
         padding-bottom: 285px;
         background-position: 50% 100%;
-        background-size: 753px;
+        background-size: 100vw;
     }
 }
 @media (max-width: 991px){

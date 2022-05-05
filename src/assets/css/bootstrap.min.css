@@ -5971,6 +5971,12 @@ button.bg-dark:hover {
     -ms-flex-pack: center!important;
     justify-content: center!important
 }
+@media only screen and (max-width: 900px) {
+    div .justify-content-between {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
 .justify-content-between {
     -ms-flex-pack: justify!important;
     justify-content: space-between!important

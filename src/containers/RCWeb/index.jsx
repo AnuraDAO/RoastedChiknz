@@ -42,7 +42,6 @@ import Faq from '../../components/Faq'
 import OurServices from "./OurServices"
 import initEthers from "../../components/Crypto/wallet";
 import SecSubHeader from "../../layouts/Header/SecSubHeader";
-
 const RCWebContainer = () => {
 
     useEffect(() => {
@@ -132,7 +131,9 @@ const RCWebContainer = () => {
               <br/>|| Holding a roasted chikn enters you into a weekly raffle.
               </h3>
             </div>
-            <div className="footer-discord-btn" href="https://discord.gg/GJR3RjNfK3">Join our Discord!</div>
+            <div className="footer-discord-btn">
+              <a href="https://discord.gg/GJR3RjNfK3" target="_blank" rel="noreferrer noopener">Join our Discord!</a>
+              </div>
           </div>
 
           <div className="pre-footer"/>

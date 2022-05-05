@@ -430,8 +430,9 @@ ol {
     .double-bg{
         background-size: cover !important
     }
+    
     .mt-s{
-        margin-top: 30px !important
+        margin-top: 0px !important
     }
     .padding-t-md-0{
         padding-top: 0 !important
@@ -3593,32 +3594,30 @@ ol {
 
 @media only screen and (max-width: 900px) {
     div .bd1, div .bd1-image {
+        z-index: 0;
+        margin-left: -75px;
         visibility: hidden;
         opacity: 0;
-        /* margin-top: -360px;
-        margin-left: 0px; */
+
     }
     div .bd2, div .bd2-image {
         z-index: 0;
+        margin-left: -75px;
         visibility: hidden;
         opacity: 0;
-        /* margin-top: 30px;
-        margin-left: 0px;
-        justify-content: center!important;
-        justify-items: center!important; */
+
     }
     div .bd3, div .bd3-image {
         z-index: 0;
+        margin-left: -75px;
         visibility: hidden;
         opacity: 0;
-        /* margin-top: 60px;
-        margin-left: 0px;
-        justify-content: center!important;
-        justify-items: center!important; */
+
     }
     div .bd4, div .bd4-image {
-        width: 100vw;
+        width: 50vw;
         z-index: 0;
+        margin-left: -75px;
         visibility: hidden;
         opacity: 0;
     }
@@ -3836,9 +3835,24 @@ ol {
         box-shadow: 0 2px 4px 4px #25170e88; 
     }
     div .red-chicken {
-        visibility: hidden;
-        opacity: 0;
+        z-index: -1;
+        opacity: 50%;
+        margin-top: 10px;
+        width: 100vw;
+        margin-left: 40px;
     }
+}
+
+.red-sec a {
+    text-decoration: none;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    outline: none;
+    color: #fff;
+}
+
+.red-sec a:hover {
+    color:#000;
 }
 
 .red-sec{
@@ -4013,7 +4027,7 @@ div .red-sec .stripe2 {
     div .hiw2 h4 {
         top: 50%;
         left: 128%;
-        margin-top: -300px;
+        margin-top: -210px;
         font-size: 50px;
         width: 100vw;
     }
@@ -4029,6 +4043,7 @@ div .red-sec .stripe2 {
     div .footer-discord-btn {
         margin-top: 150px;
         margin-left: 84px;
+        margin-bottom: -175px;
     }
     div .footer-stripe1 {
         visibility: hidden;
@@ -4173,6 +4188,18 @@ div .red-sec .stripe2 {
     border: transparent;
     border-radius: 10px;
     background-position: center!important; 
+}
+
+.footer-discord-btn a {
+    text-decoration: none;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    outline: none;
+    color: #fff;
+}
+
+.footer-discord-btn a:hover {
+    color:##fff;
 }
 .footer-discord-btn:hover {
     background-color: #D12424;
