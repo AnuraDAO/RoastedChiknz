@@ -1,6 +1,6 @@
 
 // Welcome Area CSS
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .highlight-text {
         font-size: 25px;
     }
@@ -17,13 +17,14 @@
     margin-bottom: 50px;
     
   }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 800px) {
       div .sub-header {
         position: absolute;
         top: 7%;
         z-index: 1;
         height: 50px;
-        width: 100%;
+        width: 100vw;
+        overflow: hidden;
         background-color: #222;
         transform: translate(-50%, -50%);
         justify-content: center!important;
@@ -66,7 +67,7 @@
     
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 800px) {
     div .sub-header-img {
         top: -1%;
         margin-left: -130px; 
@@ -95,9 +96,10 @@
     background-image: url(../../../assets/img/core-img/pin.png);
 
   }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 800px) {
       div .hero-section {
           width: 100vw;
+          overflow: hidden;
       }
   }
 
@@ -127,7 +129,8 @@
 @media (max-width: 991px){
     .hero-section.fullwidth-header{
         background-position: 50% 100%;
-        background-size: 897px;
+        background-size: 100vw;
+        overflow: hidden;
     }
 }
 
@@ -156,7 +159,7 @@
     
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .welcome-content .subtitle {
         height: 90.5px;
         width: 300px;
@@ -186,7 +189,7 @@
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .descript {
         margin-top: 380px;
         margin-left: 230px;
@@ -291,6 +294,7 @@
     background: url(../../../assets/img/core-img/about-1.png) no-repeat center 65%;
     height: 100vh;
     background-size: 100%;
+    overflow: hidden;
 }
 
 @media (max-width: 480px){
@@ -313,7 +317,7 @@
 }
 
 //#hero section header and tagline
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .welcome-content h5 {
         height: 132px;
         width: 400px;

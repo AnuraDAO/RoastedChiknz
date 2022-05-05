@@ -49,6 +49,7 @@ html {
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: transparent
 }
+
 @-ms-viewport {
     width: device-width
 }
@@ -75,7 +76,16 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff
+    background-color: #fff;
+    scroll-behavior: smooth;
+    -ms-scroll-snap-type: y;
+    scroll-snap-type: y;
+}
+
+@media only screen and (max-width: 800px) {
+    html, body {
+        overflow-x: hidden;
+    }
 }
 
 [tabindex="-1"]:focus {
@@ -4999,7 +5009,7 @@ button.close {
 
 @media (min-width:576px) {
     .modal-dialog {
-        max-width: 500px;
+        max-width: 800px;
         margin: 1.75rem auto
     }
     .modal-dialog-centered {
@@ -5971,7 +5981,7 @@ button.bg-dark:hover {
     -ms-flex-pack: center!important;
     justify-content: center!important
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .justify-content-between {
         visibility: hidden;
         opacity: 0;
@@ -6677,7 +6687,7 @@ button.bg-dark:hover {
     position: -webkit-sticky!important;
     position: sticky!important
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .fixed-top {
         width: 100vw;
     }

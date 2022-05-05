@@ -83,7 +83,7 @@ h1 {
 h2,
 h3,
 h4,
-@media only screen and (max-width: 900px) { 
+@media only screen and (max-width: 800px) { 
         header h5 {
         height: 132px;
         width: 650px;
@@ -707,7 +707,7 @@ ol {
 
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .free {
         margin-left: 20px;
     }
@@ -727,7 +727,7 @@ ol {
     line-height: 54px;
   }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .free {
         padding-left: 8px;
     }
@@ -2207,7 +2207,7 @@ ol {
 }
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 800px){
     div .pricing-item {
         visibility: hidden;
         opacity: 0;
@@ -3122,7 +3122,7 @@ ol {
     }
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 800px){
     div .hero-section img{
         position: relative;
         max-width: 170%;
@@ -3378,7 +3378,7 @@ ol {
     background-color: transparent !important;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .sauce-section {
         margin-top: 209px;
         width: 100vw;
@@ -3409,7 +3409,7 @@ ol {
     
     background-position: center!important;
 }
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 800px){
     div .sauce-price {
         margin-top: 510px;
         margin-left: 270px;
@@ -3432,7 +3432,7 @@ ol {
     background-image: url(../img/core-img/sauce-price.png);
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .salsa-degen {
         margin-top: 250px;
         margin-left: 46px;
@@ -3480,7 +3480,7 @@ ol {
     transform: rotate(30deg);
   }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .orderText {
         margin-top: 50px;
         margin-left: 83px;
@@ -3499,7 +3499,7 @@ ol {
     line-height: 47px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .order-btn{
         margin-top: 180px;
         margin-left: 83px;
@@ -3545,7 +3545,7 @@ ol {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .featured-sauces {
         visibility: hidden;
         opacity: 0;
@@ -3592,7 +3592,7 @@ ol {
     background-position: center!important;
   }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .bd1, div .bd1-image {
         z-index: 0;
         margin-left: -75px;
@@ -3708,7 +3708,7 @@ ol {
     background-position: center!important;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .hiw h4 {
         margin-top: -815px;
         margin-left: 121px;
@@ -3794,7 +3794,7 @@ ol {
 
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .red-sec {
         height: 750px;
         width: 100vw;
@@ -3929,7 +3929,7 @@ ol {
     background-position: center!important; 
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
 
 div .red-sec .stripe1 {
     visibility: hidden;
@@ -4019,7 +4019,7 @@ div .red-sec .stripe2 {
     cursor: pointer;
 
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     div .chicken-bath {
         visibility: hidden;
         opacity: 0;

@@ -43,7 +43,7 @@ const RCWebContainer = () => {
       <div>
      
         
-        <Header Title="Roasted Chicknz" />
+        <Header Title="Roasted Chiknz" />
         <SecHeroSection
           ClassSec="hero-section moving section-padding"
           ClassDiv="col-12 col-lg-5 col-md-12"
