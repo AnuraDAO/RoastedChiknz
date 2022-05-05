@@ -4,7 +4,7 @@ import {
         Services,
         Features2InfoTop,
         Features2InfoDown,
-       } from '../../data/data-containers/RCWeb/data-RCWeb.js';
+        } from '../../data/data-containers/RCWeb/data-RCWeb.js';
 
 import SecSauceItemsInfo from '../../data/data-containers/RCWeb/data-SecSauceItemsInfo.json';
 import RoadmapInfo from '../../data/data-containers/RCWeb/data-RoadmapInfo.json';
@@ -28,20 +28,9 @@ import './style/RCWeb.scss'
 import Header from "../../layouts/Header"
 import FooterPages from '../../layouts/Footer/FooterPages'
 import SecHeroSection from '../../components/HeroSection'
-import SecAbout from '../../components/SecAbout'
 
-import JoinUs from './JoinUs'
-import OurJoinUsFirst from '../../data/data-containers/RCWeb/data-OurJoinUsFirst.json';
-import OurJoinUsSecond from '../../data/data-containers/RCWeb/data-OurJoinUsSecond.json';
-
-import Features2 from '../../components/Features2'
-import SpreadMap from '../../components/SpreadMap'
 import SecSauceItems from '../../components/SecSauceItems'
-import Roadmap from '../../components/Roadmap'
-import Faq from '../../components/Faq'
-import OurServices from "./OurServices"
 import initEthers from "../../components/Crypto/wallet";
-import SecSubHeader from "../../layouts/Header/SecSubHeader";
 const RCWebContainer = () => {
 
     useEffect(() => {
