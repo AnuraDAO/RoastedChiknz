@@ -1,0 +1,27 @@
+[
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4",
+        "ClassDown":"contribution-c-wapper has-arrow-right-lg has-arrow-top-md has-arrow-right-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t orange",
+        "Steps":1,
+        "title":"Community Ideas",
+        "ptext":"Anura community members share their ideas for new protocol-driven applications with the development team. Any member can participate."
+    },
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4 mt-sm-30",
+        "ClassDown":"contribution-c-wapper has-arrow-right-lg has-arrow-bottom-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t pink",
+        "Steps":2,
+        "title":"Open Project Planning",
+        "ptext":"Members of the development team whiteboard project ideas in open voice channels with the community to iron out action items."
+    },
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4 mt-s",
+        "ClassDown":"contribution-c-wapper has-arrow-top-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t blue",
+        "Steps":3,
+        "title":"Official Proposal",
+        "ptext":"Project details are finalized with the development team and an official proposal is put up for a community vote. All members holding governance may vote."
+    }
+
+]

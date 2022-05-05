@@ -1,0 +1,18 @@
+[
+	{
+		"path":"#",
+		"nameLink":"Home"
+	},
+	{
+		"path":"#about",
+		"nameLink":"About Us"
+	},
+	{
+		"path":"#faq",
+		"nameLink":"FAQ"
+	},
+	{
+		"path":"#roadmap",
+		"nameLink":"Roadmap"
+	}
+]

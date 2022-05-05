@@ -1,0 +1,378 @@
+
+// Welcome Area CSS
+@media only screen and (max-width: 900px) {
+    div .highlight-text {
+        font-size: 25px;
+    }
+}
+.highlight-text {
+    height: 90.5px;
+    width: 500px;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 45px;
+    margin-bottom: 50px;
+    
+  }
+  @media only screen and (max-width: 900px) {
+      div .sub-header {
+        position: absolute;
+        top: 7%;
+        z-index: 1;
+        height: 50px;
+        width: 100%;
+        background-color: #222;
+        transform: translate(-50%, -50%);
+        justify-content: center!important;
+        justify-items: center!important;
+        padding: 13px 0px;
+        color: #fff;
+        font-family: 'Poppins';
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: center;
+        border-color: transparent;
+        -webkit-box-shadow:0 3px 0 0 #25170e; 
+        box-shadow: 0 2px 4px 4px #25170e88;
+        background-position: center!important;
+      }
+  }
+  .sub-header {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    z-index: 1;
+    height: 44px;
+    width: 100%;
+    background-color: #222;
+    transform: translate(-50%, -50%);
+    justify-content: center!important;
+    justify-items: center!important;
+    padding: 9px 0px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    border-color: transparent;
+    -webkit-box-shadow:0 3px 0 0 #25170e; 
+    box-shadow: 0 2px 4px 4px #25170e88;
+    background-position: center!important;
+    
+  }
+
+  @media only screen and (max-width: 900px) {
+    div .sub-header-img {
+        top: -1%;
+        margin-left: -130px; 
+      }
+  }
+  .sub-header-img {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    z-index: 0;
+    height: 44px;
+    width: 100%;
+    z-index: 1;
+    height: 23px;
+    width: 17px;
+    margin-top: 91px;
+    margin-left: -155px; 
+    margin-right: -50%;
+    padding: 9px 0px;
+    border-color: transparent;
+    background-position: center!important;
+    transform: translate(-50%, -50%);
+    justify-content: center!important;
+    justify-items: center!important;
+    background-position: center!important;
+    background-image: url(../../../assets/img/core-img/pin.png);
+
+  }
+
+.hero-section{
+    position: relative;
+    min-height: 700px;
+    background-size: cover;
+    overflow: hidden;
+    background: linear-gradient(177.1deg, #FF8C21 0%, #D12424 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section.fullwidth-header .special-head.dark{
+    padding-left: 0
+}
+.hero-section.fullwidth-header .special-head.dark:before{
+    display: none;
+}
+@media (max-width: 991px){
+    .hero-section.fullwidth-header{
+        padding-bottom: 285px;
+        background-position: 50% 100%;
+        background-size: 753px;
+    }
+}
+@media (max-width: 991px){
+    .hero-section.fullwidth-header{
+        background-position: 50% 100%;
+        background-size: 897px;
+    }
+}
+
+.welcome_area {
+    width: 100%;
+    height: 900px !important;
+}
+
+// .hero-content {
+//     width: 100%;
+//     height: 100%;
+//     background: rgb(11, 89, 49);
+//     background: -webkit-linear-gradient(to right, rgb(11, 89, 49), rgb(6, 30, 30));
+//     background: -webkit-linear-gradient(left, rgb(11, 89, 49), rgb(6, 30, 30));
+//     background: linear-gradient(to right, rgb(11, 89, 49), rgb(6, 30, 30));
+//     position: absolute !important;
+//     top: 0;
+//     left: 0;
+//     z-index: 10;
+// }
+
+.welcome-content {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 85px;
+    
+}
+
+@media only screen and (max-width: 900px) {
+    div .welcome-content .subtitle {
+        height: 90.5px;
+        width: 300px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: -1px;
+        line-height: 45px;
+        margin-left: 50px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+}
+
+.welcome-content .subtitle {
+    height: 90.5px;
+    width: 500px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 45px;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    div .descript {
+        margin-top: 380px;
+        margin-left: 230px;
+    }
+}
+.descript {
+    position: absolute;
+    z-index: 0;
+    height: 21px;
+    width: 145px;
+    color: #FBC12D;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 0px;
+    margin-top: 315px;
+    margin-left: 204px;
+    flex-direction: column;
+}
+
+.integration-link {
+    padding: 8px 10px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    letter-spacing: .58px;
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    color: #d5d5ea
+}
+
+.integration-link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background : #eee;
+    border-radius: 100px;
+}
+.integration-icon {
+    margin: 0 5px 0 0;
+}
+.integration-icon .badge{
+    background: #14cab1;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 100px;
+    padding: 6px 13px;
+}
+.integration-text {
+    margin: 0 7px 0 0;
+    color: #7e7b7b
+}
+.integration-link>* {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    vertical-align: top;
+}
+.header-ilustration-1{
+    min-width: 0px;
+    margin-top: 60px;
+    position: relative;
+}
+.header-ilustration-1 img{
+    width: 100%;
+    border-radius: 10px
+}
+.header-ilustration-1.small img{
+    width: 85%
+}
+.header-ilustration-1.big img{
+    width: 105%
+}
+.has-shadow {
+    -webkit-box-shadow: 0 9px 68px 0 rgba(62,57,107,.2);
+    box-shadow: 0 9px 68px 0 rgba(62,57,107,.2);
+    border-radius: 10px
+}
+
+@media (max-width: 992px){
+    .header-ilustration-1{
+        margin-top: 0
+    }
+    .bub-right{
+        background-size: cover;
+    }
+    .bub-left{
+        background-size: cover;
+    }
+
+}
+
+// #about section image
+.main-ilustration-6{
+    position: relative;
+    background: url(../../../assets/img/core-img/about-1.png) no-repeat center 65%;
+    height: 100vh;
+    background-size: 100%;
+}
+
+@media (max-width: 480px){
+    .main-ilustration-6,
+    .header-ilustration-1{
+       display: none;
+    }
+    .welcome-content {
+        vertical-align: middle;
+        margin-top: 100px !important
+
+    }
+    .main-ilustration-3{
+        display: none;
+    }
+    .welcome-small-wrapper{
+       display: none;
+    }
+    
+}
+
+//#hero section header and tagline
+@media only screen and (max-width: 900px) {
+    div .welcome-content h5 {
+        height: 132px;
+        width: 400px;
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 65px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 80px;
+        margin-left: 55px;
+        padding-top: 30px;
+    }
+
+}
+.welcome-content h5 {
+    height: 132px;
+    width: 650px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 76px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 106px;
+}
+.welcome-content h2 {
+    font-size: 52px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.welcome-content h1 {
+    font-size: 100px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.welcome-content h1.artficial{
+    font-size: 100px;
+}
+.welcome-content p {
+    font-family:'poppins';
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 30px;
+} 
+.artficial{
+    padding-left: 20px;
+    border-left: 2px solid #fff;
+    position: relative;
+    margin-left: -30px;
+}
+.welcome-content-small{
+    margin-bottom: 30px
+}
+.welcome-content-small h4{
+    margin-bottom: 20px
+}
+.artficial p{
+    font-size: 12px
+}
+.fullscreen-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
