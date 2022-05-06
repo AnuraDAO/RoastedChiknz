@@ -1,36 +1,14 @@
 import {useEffect} from "react";
 import {addRemoveClassBody} from '../../utils'
-import {
-        Services,
-        Features2InfoTop,
-        Features2InfoDown,
-        } from '../../data/data-containers/RCWeb/data-RCWeb.js';
-
 import SecSauceItemsInfo from '../../data/data-containers/RCWeb/data-SecSauceItemsInfo.json';
-import RoadmapInfo from '../../data/data-containers/RCWeb/data-RoadmapInfo.json';
-import FaqInfo from '../../data/data-containers/RCWeb/data-FaqInfo.json';
-
-import {
-        RCWebPin,
-        RCWebPlatform1,
-        RCWebwhitepaper,
-        RCWebAbout1,
-        RCWebSalsa1,
-        RCWebSalsa2,
-        RCWebSalsa3,
-        RCWebSalsaSM1,
-        RCWebSalsaSM2,
-        RCWebSalsaSM3,
-        RCWebSalsaSM4
-        } from '../../utils/allImgs'
-
+import { RCWebPlatform1 } from '../../utils/allImgs'
 import './style/RCWeb.scss'
 import Header from "../../layouts/Header"
 import FooterPages from '../../layouts/Footer/FooterPages'
 import SecHeroSection from '../../components/HeroSection'
-
 import SecSauceItems from '../../components/SecSauceItems'
 import initEthers from "../../components/Crypto/wallet";
+
 const RCWebContainer = () => {
 
     useEffect(() => {
@@ -41,8 +19,6 @@ const RCWebContainer = () => {
  
 
       <div>
-     
-        
         <Header Title="Roasted Chiknz" />
         <SecHeroSection
           ClassSec="hero-section moving section-padding"
@@ -52,15 +28,14 @@ const RCWebContainer = () => {
           link2="ROAST"
           img={RCWebPlatform1}
         />
-       
         <div className="sauce-section">
-          <div className="welcome-meter1" data-aos="fade-up" data-aos-delay="200">
+          <div className="welcome-meter" data-aos="fade-up" data-aos-delay="200">
             <div className="salsa-degen"/>
-          <div className="welcome-meter2" data-aos="fade-up" data-aos-delay="200">
+          <div className="welcome-meter" data-aos="fade-up" data-aos-delay="200">
             <div className="salsa-trader"/>
-          <div className="welcome-meter3" data-aos="fade-up" data-aos-delay="200">
+          <div className="welcome-meter" data-aos="fade-up" data-aos-delay="200">
             <div className="salsa-verde"/>
-            <div className="welcome-meter4" data-aos="fade-up" data-aos-delay="200">
+            <div className="welcome-meter" data-aos="fade-up" data-aos-delay="200">
             <div className="sauce-price"/>
           </div>
           </div>
@@ -83,7 +58,7 @@ const RCWebContainer = () => {
           <div className="bd4"/>
             <div className="bd4-img"/>
           <SecSauceItems data={SecSauceItemsInfo} />
-          <div className="welcome-meter5" data-aos="fade-up" data-aos-delay="200">
+          <div className="welcome-meter" data-aos="fade-up" data-aos-delay="200">
             <div className="hiw">
               <h4>What is it?</h4>
               <h3><text className="hiw highlight-h3">roasted chiknz </text>are not just plain-old NFTs...
@@ -126,8 +101,6 @@ const RCWebContainer = () => {
           </div>
 
           <div className="pre-footer"/>
-
-        <div className="clearfix" />
         <FooterPages />
         
       </div>

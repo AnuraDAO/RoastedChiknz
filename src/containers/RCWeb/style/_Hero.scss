@@ -24,7 +24,6 @@
         z-index: 1;
         height: 50px;
         width: 100vw;
-        overflow: hidden;
         background-color: #222;
         transform: translate(-50%, -50%);
         justify-content: center!important;
@@ -64,7 +63,7 @@
     -webkit-box-shadow:0 3px 0 0 #25170e; 
     box-shadow: 0 2px 4px 4px #25170e88;
     background-position: center!important;
-    
+    overflow: hidden;
   }
 
   @media only screen and (max-width: 800px) {
@@ -94,14 +93,18 @@
     justify-items: center!important;
     background-position: center!important;
     background-image: url(../../../assets/img/core-img/pin.png);
+    overflow: hidden;
 
   }
   @media only screen and (max-width: 800px) {
       div .hero-section {
           width: 100vw;
-          overflow: hidden;
       }
   }
+
+  .hero-section.moving{
+    overflow: hidden;
+}
 
 .hero-section{
     position: relative;
@@ -126,31 +129,27 @@
         background-size: 100vw;
     }
 }
-@media (max-width: 991px){
-    .hero-section.fullwidth-header{
-        background-position: 50% 100%;
-        background-size: 100vw;
-        overflow: hidden;
-    }
-}
+// @media (max-width: 991px){
+//     .hero-section.fullwidth-header{
+//         background-position: 50% 100%;
+//         background-size: 100vw;
+//         overflow: hidden;
+//     }
+// }
 
 .welcome_area {
     width: 100%;
     height: 900px !important;
 }
 
-// .hero-content {
-//     width: 100%;
-//     height: 100%;
-//     background: rgb(11, 89, 49);
-//     background: -webkit-linear-gradient(to right, rgb(11, 89, 49), rgb(6, 30, 30));
-//     background: -webkit-linear-gradient(left, rgb(11, 89, 49), rgb(6, 30, 30));
-//     background: linear-gradient(to right, rgb(11, 89, 49), rgb(6, 30, 30));
-//     position: absolute !important;
-//     top: 0;
-//     left: 0;
-//     z-index: 10;
-// }
+.hero-content {
+    width: 100%;
+    height: 100%;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
 
 .welcome-content {
     margin-top: 50px;
@@ -186,6 +185,7 @@
     line-height: 45px;
     margin-top: -40px;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 
 
@@ -377,11 +377,11 @@
     font-size: 12px
 }
 .fullscreen-bg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
 }

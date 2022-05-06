@@ -33,9 +33,8 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
 *,
 ::after,
 ::before {
@@ -80,12 +79,6 @@ body {
     scroll-behavior: smooth;
     -ms-scroll-snap-type: y;
     scroll-snap-type: y;
-}
-
-@media only screen and (max-width: 800px) {
-    html, body {
-        overflow-x: hidden;
-    }
 }
 
 [tabindex="-1"]:focus {
@@ -206,17 +199,17 @@ pre {
     -ms-overflow-style: scrollbar
 }
 figure {
-    margin: 0 0 1rem
+    margin: 0 0 1rem;
 }
 img {
     vertical-align: middle;
     border-style: none
 }
 svg:not(:root) {
-    overflow: hidden
+    overflow: hidden;
 }
 table {
-    border-collapse: collapse
+    border-collapse: collapse;
 }
 caption {
     padding-top: .75rem;

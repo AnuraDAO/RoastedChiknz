@@ -49,7 +49,6 @@
 ====================================================================
 
 ***/
-
 * {
     margin: 0;
     padding: 0;
@@ -61,6 +60,14 @@ body {
     /* background: -webkit-linear-gradient(to right, #0b5931, #061e1e);
     background: -webkit-linear-gradient(left, #0b5931, #061e1e);
     background: linear-gradient(to right, #0b5931, #061e1e); */
+}
+@media only screen and (max-width: 800px) {
+    html,body {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        -ms-scroll-snap-type: y;
+        scroll-snap-type: y;
+    }
 }
 /* .darker{
    background: #061e1e
@@ -691,6 +698,7 @@ ol {
     border: 1px solid #000;
     border-width: 2px;
     letter-spacing: 1px;
+    overflow: hidden;
 }
 
 .login-btn:hover,
@@ -754,7 +762,6 @@ ol {
     font-size: 25px !important;
     font-family: 'Poppins';
     font-weight: 700;
- 
     border: 3px solid #000;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
@@ -2225,6 +2232,7 @@ ol {
     text-align: center;
     padding: 0 5px 10px;
     margin-top: -40px;
+    overflow: hidden;
 }
 .pricing-item .pricing {
     font-size: 15px;
@@ -2288,6 +2296,7 @@ ol {
     background-image: linear-gradient(117deg, #02e179, #1096d0);
     background-repeat: no-repeat;
     background-position: left;
+    overflow: hidden;
 }
 .single_price_table_content {
     padding: 50px;
@@ -2295,6 +2304,7 @@ ol {
     position: relative;
     z-index: 2;
     border-radius: 6px;
+    overflow: hidden;
 }
 .single_price_table_content.active {
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
@@ -2879,32 +2889,32 @@ ol {
     top: 6px;
 }
 .ico-progress {
-   margin: 20px 10px;
+    margin: 20px 10px;
 }
 .ico-progress ul{
     margin-bottom: 5px
 }
 .ico-progress li {
-   font-size: 18px;
-   font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
 }
 .ico-progress li.title {
-   float: left;
-   padding-left: 30px;
-   font-weight: 500;
-   color: #fff
+    float: left;
+    padding-left: 30px;
+    font-weight: 500;
+    color: #fff
 }
 .ico-progress li.strength {
-   float: right;
-   font-weight: 500;
-   color: #fff
+    float: right;
+    font-weight: 500;
+    color: #fff
 }
 .ico-progress .current-progress {
-   width: 100%;
-   height: 16px;
-   position: relative;
-   background: rgba(191, 191, 191, .6);
-   border-radius: 7px
+    width: 100%;
+    height: 16px;
+    position: relative;
+    background: rgba(191, 191, 191, .6);
+    border-radius: 7px
 }
 .ico-progress .current-progress:before{
     content: '';
@@ -3112,10 +3122,9 @@ ol {
         margin-left: 150px;
         margin-top: 130px;
         padding-bottom: 80px;
+        overflow: hidden;
     }
-    .stack-top {
 
-    }
     .hero-section .curved{
         max-width: 100%;
         margin-top: 30px
@@ -3128,9 +3137,6 @@ ol {
         max-width: 170%;
         margin-left: -50px;
         margin-top: -50px;
-    }
-    .stack-top {
-
     }
     .hero-section .curved{
         max-width: 100%;
@@ -3406,8 +3412,8 @@ ol {
     background-color: #F8F7F6;
     -webkit-box-shadow:0 3px 0 0 #25170e; 
     box-shadow: 0 2px 4px 4px #25170e88;
-    
     background-position: center!important;
+    overflow: hidden;
 }
 @media only screen and (max-width: 800px){
     div .sauce-price {
@@ -3430,6 +3436,7 @@ ol {
     letter-spacing: -0.79px;
     line-height: 23px;
     background-image: url(../img/core-img/sauce-price.png);
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 800px) {
@@ -3458,6 +3465,7 @@ ol {
     width: 312.84px;
     background-image: url(../img/core-img/salsa-degen.png);
     transform: rotate(0deg);
+    overflow: hidden;
   }
   .salsa-trader {
     position: absolute;
@@ -3468,6 +3476,7 @@ ol {
     width: 312.84px;
     background-image: url(../img/core-img/salsa-trader.png);
     transform: rotate(-50deg);
+    overflow: hidden;
   }
   .salsa-verde {
     position: absolute;
@@ -3478,6 +3487,7 @@ ol {
     width: 312.84px;
     background-image: url(../img/core-img/salsa-verde.png);
     transform: rotate(30deg);
+    overflow: hidden;
   }
 
 @media only screen and (max-width: 800px) {
@@ -3497,6 +3507,7 @@ ol {
     font-size: 35px;
     font-weight: 800;
     line-height: 47px;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 800px) {
@@ -3533,6 +3544,7 @@ ol {
     letter-spacing: 1px;
     -webkit-box-shadow:0 3px 0 0 #25170e; 
     box-shadow: 0 2px 5px 2px #25170e88;
+    overflow: hidden;
 }
 
 .order-btn:hover,
@@ -3548,6 +3560,7 @@ ol {
 @media only screen and (max-width: 800px) {
     div .featured-sauces {
         visibility: hidden;
+        overflow: hidden;
         opacity: 0;
 
     }
@@ -3590,6 +3603,7 @@ ol {
     justify-items: center!important;
     background-color: #202124;
     background-position: center!important;
+    overflow: hidden;
   }
 
 @media only screen and (max-width: 800px) {
@@ -3643,6 +3657,7 @@ ol {
     -webkit-box-shadow:0 3px 0 0 #25170e; 
     box-shadow: 0 2px 4px 4px #25170e88;
     background-position: center!important;
+    overflow: hidden;
   }
   .bd2 {
     position: relative;
@@ -3664,6 +3679,7 @@ ol {
     -webkit-box-shadow:0 3px 0 0 #25170e; 
     box-shadow: 0 2px 5px 4px #25170e88;
     background-position: center!important;
+    overflow: hidden;
   }
   .bd3 {
     position: relative;
@@ -3685,6 +3701,7 @@ ol {
     -webkit-box-shadow:0 3px 0 0 #25170e; 
     box-shadow: 0 2px 5px 4px #25170e88;
     background-position: center!important;
+    overflow: hidden;
   }
   .bd4 {
     position: relative;
@@ -3706,6 +3723,7 @@ ol {
     -webkit-box-shadow:0 3px 0 0 #25170e; 
     box-shadow: 0 2px 5px 4px #25170e88;
     background-position: center!important;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 800px) {
@@ -3791,6 +3809,7 @@ ol {
     justify-items: center!important;
     background-image: url(../img/core-img/red-chicken.png);
     background-position: center!important; 
+    overflow: hidden;
 
 }
 
@@ -3801,6 +3820,7 @@ ol {
         margin-top: 240px;
         -webkit-box-shadow:0 3px 2px 3px #25170e; 
         box-shadow: 0 2px 4px 7px #25170ec7;
+        overflow: hidden;
     }
     div .red-sec .logo {
         top: -31%;
@@ -4024,6 +4044,9 @@ div .red-sec .stripe2 {
         visibility: hidden;
         opacity: 0;
 }
+    div .hiw2 {
+        width: 100vw;
+    }
     div .hiw2 h4 {
         top: 50%;
         left: 128%;
@@ -4043,7 +4066,7 @@ div .red-sec .stripe2 {
     div .footer-discord-btn {
         margin-top: 150px;
         margin-left: 84px;
-        margin-bottom: -175px;
+        margin-bottom: -165px;
     }
     div .footer-stripe1 {
         visibility: hidden;
@@ -4071,6 +4094,7 @@ div .red-sec .stripe2 {
     width: 923.05px;
     background-image: url(../img/core-img/chicken-bath.png);
     background-position: center!important; 
+    overflow: hidden;
 }
 .footer-stripe1 {
     position: relative;
@@ -4111,6 +4135,7 @@ div .red-sec .stripe2 {
     justify-items: center!important;
     background-image: url(../img/core-img/footer-chicken.png);
     background-position: center!important;
+    overflow: hidden;
 }
 
 .hiw2 h4 {
@@ -4158,6 +4183,7 @@ div .red-sec .stripe2 {
     border: 1px solid #fff;
     border-color: transparent;
     background-position: center!important; 
+
 }
 .hiw2 .highlight-h3{
     color: #D12424;
@@ -4188,6 +4214,7 @@ div .red-sec .stripe2 {
     border: transparent;
     border-radius: 10px;
     background-position: center!important; 
+    overflow: hidden;
 }
 
 .footer-discord-btn a {
@@ -4199,7 +4226,7 @@ div .red-sec .stripe2 {
 }
 
 .footer-discord-btn a:hover {
-    color:##fff;
+    color:#fff;
 }
 .footer-discord-btn:hover {
     background-color: #D12424;
@@ -4212,7 +4239,7 @@ div .red-sec .stripe2 {
     -webkit-box-shadow:0 3px 0 0 #25170e; 
     box-shadow: 0 2px 4px 4px #25170e88;
     cursor: pointer;
-
+    overflow: hidden;
 }
 .pre-footer {
     position: relative;
@@ -4226,6 +4253,7 @@ div .red-sec .stripe2 {
     justify-items: center!important;
     border: transparent;
     border-radius: 10px;
-    background-position: center!important; 
+    background-position: center!important;
+    overflow: hidden; 
 
 }
