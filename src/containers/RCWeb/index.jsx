@@ -8,6 +8,11 @@ import FooterPages from '../../layouts/Footer/FooterPages'
 import SecHeroSection from '../../components/HeroSection'
 import SecSauceItems from '../../components/SecSauceItems'
 import initEthers from "../../components/Crypto/wallet";
+import OrderSauce from "../../components/OrderSauce";
+import FeaturedSauces from "../../components/FeaturedSauces";
+import InfoSection from "../../components/SecInformation";
+import RedHero from "../../components/SecRedHero";
+import PreFooter from "../../components/SecPreFooter";
 
 const RCWebContainer = () => {
 
@@ -16,7 +21,6 @@ const RCWebContainer = () => {
     },[])
 
     return (
- 
 
       <div>
         <Header Title="Roasted Chiknz" />
@@ -27,80 +31,46 @@ const RCWebContainer = () => {
           link1="FREE"
           link2="ROAST"
           img={RCWebPlatform1}
+
         />
-        <div className="sauce-section">
-          <div className="welcome-meter" data-aos="fade-up" data-aos-delay="200">
-            <div className="salsa-degen"/>
-          <div className="welcome-meter" data-aos="fade-up" data-aos-delay="200">
-            <div className="salsa-trader"/>
-          <div className="welcome-meter" data-aos="fade-up" data-aos-delay="200">
-            <div className="salsa-verde"/>
-            <div className="welcome-meter" data-aos="fade-up" data-aos-delay="200">
-            <div className="sauce-price"/>
-          </div>
-          </div>
-          </div>
-          </div>
-          <div className="order-btn">Order Sauce</div>
-          <div className="orderText"><text>Add flavor to{"\n"}your chiknz.</text></div>
-        </div>
+        <OrderSauce
+          btntext="Order Sauce"
+          descript= "Add flavor to your chiknz."
+
+        />
+        <FeaturedSauces
+          featHeader="Featured Sauces"
+          
+        />
+        <SecSauceItems data={SecSauceItemsInfo} />
+        <InfoSection 
+          infoHeader="What is it?"
+          highlight="Roasted Chiknz "
+          infoText1="are not just plain-old NFTs..."
+          infoText2="They are an entire ecosystem built around"
+          infoText3=" these NFTs - encompassing a novel Tri-Token"
+          infoText4=" Architecture."
         
-          <div className="featured-sauces"><text>Featured Sauces</text>
-          <div className="section-break"/>
-          </div>
+        />
+        <RedHero
+        redHeader="OUR FOOD"
+        subtitle1="A GAME"
+        subtitle2=" WITH A TWIST"
+        redInfoText="Get your chiknz sauced and juicy. It's finger lik'n good!"
+        link1="Learn More"
 
-          <div className="bd1"/>  
-          <div className="bd1-img"/>
-          <div className="bd2"/>
-            <div className="bd2-img"/>
-          <div className="bd3"/>
-            <div className="bd3-img"/>
-          <div className="bd4"/>
-            <div className="bd4-img"/>
-          <SecSauceItems data={SecSauceItemsInfo} />
-          <div className="welcome-meter" data-aos="fade-up" data-aos-delay="200">
-            <div className="hiw">
-              <h4>What is it?</h4>
-              <h3><text className="hiw highlight-h3">roasted chiknz </text>are not just plain-old NFTs...
-              <br/>They are an entire ecosystem built around<br/> these NFTs - 
-                  encompassing a novel Tri-Token<br/> Architecture.</h3>
-            </div>
-          </div>
-        <div className="red-chicken"/>
-        
-        <div className="red-sec">
-          <h2>OUR FOOD</h2>
-          <h1>A GAME<br/> 
-              WITH A TWIST</h1>
-          <h3>Get your chiknz sauced and juicy. It's finger lik'n good!</h3>
-        <div className="red-sec stripe1"/>
-        <div className="red-sec stripe2"/>
-          <div className="red-sec logo"/>
-          <div className="red-sec button">
-            <a href="https://anuradao.medium.com/anura-presents-the-roast-of-2a27c95b1f62" target="_blank" rel="noreferrer noopener">Learn More</a>
-          </div>
-          <div className="chicken-bath"/>
-        <div className="footer-stripe1"/>
-        <div className="footer-stripe2"/>
-          <div className="footer-chicken"/>
-        </div>
+        />
+        <PreFooter
+          pfheader="How it works"
+          highlight="Roasted Chiknz"
+          text1=" produce YUM tokens."
+          text2="|| They can evolve."
+          text3="|| Holding"
+          highlight2=" Roasted Chiknz "
+          text4="enters you into a weekly raffle."
+          link1="Join our Discord!"
 
-        <div className="welcome-meter4" data-aos="fade-up" data-aos-delay="200">
-            <div className="hiw2">
-              <h4>How it works</h4>
-              <h3>|| <text className="hiw2 highlight-h3">Roasted chiknz</text> produce YUM tokens.
-              <br/>
-              <br/>|| They can evolve.
-              <br/>
-              <br/>|| Holding a roasted chikn enters you into a weekly raffle.
-              </h3>
-            </div>
-            <div className="footer-discord-btn">
-              <a href="https://discord.gg/GJR3RjNfK3" target="_blank" rel="noreferrer noopener">Join our Discord!</a>
-              </div>
-          </div>
-
-          <div className="pre-footer"/>
+        />
         <FooterPages />
         
       </div>

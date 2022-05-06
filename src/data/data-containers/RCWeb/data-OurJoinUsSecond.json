@@ -1,28 +1,28 @@
 [
 
     {
-        "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
-        "ClassDown":"contribution-c-wapper has-arrow-left-lg has-arrow-bottom-md has-arrow-down-sm",
-        "ClassSteps":"gradient-t green",
-        "Steps":6,
-        "title":"Deployment",
-        "ptext":"After successfully integrating the application into the rest of the Anura ecosystem, the protocol-driven application is finalized, deployed to the blockchain, and made available to the public for use."
+        "ClassTop":"",
+        "ClassDown":"",
+        "ClassSteps":"",
+        "Steps":"",
+        "title":"",
+        "ptext":""
     },
     {
-        "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
-        "ClassDown":"contribution-c-wapper has-arrow-left-lg has-arrow-left-md has-arrow-down-sm",
-        "ClassSteps":"gradient-t green",
-        "Steps":5,
-        "title":"Protocol Integration",
-        "ptext":"When core development is completed, the protocol is integrated into the Anura ecosystem and can interact on-chain with other Anura fintech services. Integration will vary by protocol."
+        "ClassTop":"",
+        "ClassDown":"",
+        "ClassSteps":"",
+        "Steps":"",
+        "title":"",
+        "ptext":""
     },
     {
-        "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
-        "ClassDown":"contribution-c-wapper ",
-        "ClassSteps":"gradient-t pink",
-        "Steps":4,
-        "title":"Open Development",
-        "ptext":"If proposal is passed, the development team will begin building the new protocol-driven application. Active development sessions are held in open voice chat. Community members are welcome to sit in."
+        "ClassTop":"",
+        "ClassDown":"",
+        "ClassSteps":"",
+        "Steps":"",
+        "title":"",
+        "ptext":""
     }
 
 ]

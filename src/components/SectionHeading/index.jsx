@@ -10,7 +10,7 @@ const SectionHeading = ({
   return (
   	<>
   	{img ? (
-	      <div className="section-heading text-center">	      		
+	  	<div className="section-heading text-center">	      		
 	        <div className="dream-dots justify-content-center" data-aos="fade-up">
 	          <img draggable="false" src={img} alt="" />
 	        </div>

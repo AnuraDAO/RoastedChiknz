@@ -2215,13 +2215,13 @@ ol {
 
 
 @media only screen and (max-width: 800px){
-    div .pricing-item {
+    div .sauce-item {
         visibility: hidden;
         opacity: 0;
     }
 }
 /* ##### 11.0 Price Table Area CSS ##### */
-.pricing-item {
+.sauce-item {
     position: relative;
     top: 50%;
     left: 50%;
@@ -2234,7 +2234,7 @@ ol {
     margin-top: -40px;
     overflow: hidden;
 }
-.pricing-item .pricing {
+.sauce-item .pricing {
     font-size: 15px;
     line-height: 18px;
     margin: 0 0 20px;
@@ -2246,7 +2246,7 @@ ol {
     line-height: 1;
     color: #1096d0
 }
-.pricing-item h3{
+.sauce-item h3{
     color: #000;
     font-size: 14px;
     font-weight: 400;
@@ -2255,7 +2255,7 @@ ol {
     text-align: center;
     margin: -10px -195px 20px;
 }
-.pricing-item h4{
+.sauce-item h4{
     font-size: 14px;
     font-weight: bold;
     line-height: -1.43;
@@ -2269,7 +2269,7 @@ ol {
     margin-bottom: 20px;
     
 }
-.pricing-item span {
+.sauce-item span {
     font-size: 14px;
     text-align: center;
     color: #000;
@@ -2285,7 +2285,7 @@ ol {
 .table_text_details > p {
     margin-bottom: 20px;
 }
-.pricing-item label {
+.sauce-item label {
     height: 40px;
     line-height: 40px;
     font-size: 16px;
@@ -4058,7 +4058,7 @@ div .red-sec .stripe2 {
         width: 100vw;
         justify-content: center;
         margin-top: 60px;
-        margin-left: 35px;
+        margin-left: 25px;
         font-size: 18px;
         letter-spacing: -1px;
         line-break: auto;

@@ -1,22 +1,22 @@
 [
     {
-        "text":"What is a DAO?",
-        "ID":"Text1",
-        "ptext":"DAO stands for \"Decentralized Autonomous Organization.\" It refers to an organization without a centralized power structure. All actions performed by the organization are determined and voted on by the members of its community."
+        "text":"",
+        "ID":"",
+        "ptext":""
     },
         {
-        "text":"What is Governance?",
-        "ID":"Text2",
-        "ptext":"Governance refers to the way a DAO delegates voting power to the community. In some organizations, voting power is distributed based on the purchased token supply that a member holds. That can create obvious imbalances and does not represent our core values. Review our documentation for more information about how we implement governance."
+        "text":"",
+        "ID":"",
+        "ptext":""
     },
     {
-        "text":"What is $RIBT?",
-        "ID":"Text3",
-        "ptext": "$RIBT is our community token. It will have integrated utility in all Anura projects and any DAO-incubated projects. Token holders will be allocated disbursements from DAO revenue, as voted by DAO governance token holders."
+        "text":"",
+        "ID":"",
+        "ptext": ""
     },
     {
-        "text":"How do I get Involved?",
-        "ID":"Text4",
-        "ptext":"Join our Discord server for additional information on participating in and contributing to the DAO."
+        "text":"",
+        "ID":"",
+        "ptext":""
     }
 ]
