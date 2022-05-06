@@ -55,6 +55,7 @@
     background-position: top center;
     opacity: 0.3;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
 }
 
 .copywrite_text > p {
@@ -231,6 +232,7 @@ textarea:required {
     background-position: top center;
     opacity: 0.3;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
 }
 
 .copywrite_text > p {

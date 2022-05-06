@@ -91,16 +91,16 @@ h2,
 h3,
 h4,
 @media only screen and (max-width: 800px) { 
-        header h5 {
-        height: 132px;
-        width: 650px;
-        color: #FFF;
-        font-family: 'Poppins';
-        font-size: 40px;
-        font-weight: 800;
-        letter-spacing: -2px;
-        line-height: 106px;
-    }
+    header h5 {
+    height: 132px;
+    width: 650px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 106px;
+}
 }
 h5 {
     height: 132px;
@@ -109,7 +109,7 @@ h5 {
     font-family: 'Poppins';
     font-size: 76px;
     font-weight: 800;
-    letter-spacing: -2px;
+    /* letter-spacing: -2px; */
     line-height: 106px;
 }
 
@@ -813,11 +813,13 @@ ol {
     }
 }
 
+/***
 ====================================================================
-  Contribution Cycle style
+Contribution Cycle style
 ====================================================================
 
 ***/
+
 .vission .dark-row{
     padding:30px;
 }
@@ -848,7 +850,6 @@ ol {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
     text-align: center;
     position: relative;
 }
@@ -2660,7 +2661,6 @@ ol {
 .lock img {
     display: inline-block;
     vertical-align: middle;
-    float: left;
     margin: 0px 20px;
 }
 .lock img:first-child {
@@ -2673,7 +2673,6 @@ ol {
     margin: 38px 4px 0 4px;
     vertical-align: middle;
     display: inline-block;
-    float: left;
 }
 .lock .ball.ball_active {
     background: #0b5931;
