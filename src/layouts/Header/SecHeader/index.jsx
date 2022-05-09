@@ -32,61 +32,9 @@ const SecHeader = ({Logo , dropdownItem , MenuInfo, IcoName}) => {
 
               {<li className="lh-55px"><button id="wallet" className="btn login-btn ml-50"  onClick={async () => { 
 
-        //CHUNK Of CODE for Wallet--------------------------     
-                async function getAccount() {
-                  const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
-                  //PROD
-                await window.ethereum.request({ method: 'wallet_switchEthereumChain', params: [{ chainId: '0xa86a' }], });
-                  const account = accounts[0];
-                  console.log("Found Accounts",accounts);
-                  return account
-              } 
-          //CHUNK OF CODE for logo
-              async function addLogo(){
-                console.log('Logo Add');
-                const tokenAddress = '0x302Abf007C2045F1bC0867a4b7abaaE2152e0EB3';
-                const tokenSymbol = 'RIBT';
-                const tokenDecimals = 18;
-                const tokenImage = 'https://gateway.pinata.cloud/ipfs/QmcaTtz3w1FXnyyvs6VmfHABdPDELKA4kDiRaDRhRozJCv';
-                
-                try {
-                  const wasAdded = await window.ethereum.request({
-                    method: 'wallet_watchAsset',
-                    params: {
-                      type: 'ERC20', 
-                      options: {
-                        address: tokenAddress, // The address that the token is at.
-                        symbol: tokenSymbol, // A ticker symbol or shorthand, up to 5 chars.
-                        decimals: tokenDecimals, // The number of decimals in the token
-                        image: tokenImage, // A string url of the token logo
-                      },
-                    },
-                  });
-                  if (wasAdded) {
-                    console.log('Thanks for your interest!');
-                  } else {
-                    console.log('Your loss!');
-                  }
-                } catch (error) {
-                  console.log(error);
-                }
-                }
+        //CHUNK Of CODE for When wallet button clicked
 
-
-                if(window.ethereum){
-                window.ethereum.on('accountsChanged', async ()=>{
-                  console.log("Acc Change Detected");
-                  await addLogo();
-                });
-
-                window.ethereum.enable(); //Enable ethereum
-                await getAccount();
-                const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
-                if(accounts.length >0){
-                await addLogo();
-                }
-                
-              }
+        
             }}>Connect Wallet</button></li>}
             <div className="marketplace">COMING SOON</div>
               <div className="header-social-info fadeInUp" data-wow-delay="0.4s">

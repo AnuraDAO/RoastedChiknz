@@ -9,6 +9,7 @@ import SecHeroSection from '../../components/HeroSection'
 import SecSauceItems from '../../components/SecSauceItems'
 import initEthers from "../../components/Crypto/wallet";
 import OrderSauce from "../../components/OrderSauce";
+import OrderDrink from "../../components/OrderDrink";
 import FeaturedSauces from "../../components/FeaturedSauces";
 import InfoSection from "../../components/SecInformation";
 import RedHero from "../../components/SecRedHero";
@@ -38,6 +39,7 @@ const RCWebContainer = () => {
           descript= "Add flavor to your chiknz."
 
         />
+
         <FeaturedSauces
           featHeader="Featured Sauces"
           
