@@ -28,8 +28,10 @@ const SecHeroSection = ({
         upcomingChikn.toString();
         document.getElementById('chiknImage').src="https://roasted.mypinata.cloud/ipfs/QmbEaGUtDCUT69BhXx18hybgob8gQb8MjdgeQJqHn3x5jA/"+upcomingChikn.toString()+".png"
         document.getElementById('chiknImage').style.maxWidth = "23vw";
+        document.getElementById('chiknImage').style.maxHeight = "373px";
         document.getElementById('chiknImage').style.marginLeft = "250px";
-
+        document.getElementById('chiknImage').style.paddingBottom = "unset";
+        document.getElementById('chiknImage').style.boxShadow = "3px 3px 3px 3px";
       }
 
   return (
@@ -55,9 +57,9 @@ const SecHeroSection = ({
               <div className="col-lg-6">
                 {AnuraWebOr4Or5Or6 && (
                   <div className="illusto-2">
+
                     <img draggable="false" src={img} alt="" id="chiknImage" />
                   </div>
-                  
                 )}
               </div>
             )}

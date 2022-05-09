@@ -1,7 +1,7 @@
 
 /////////////////////////////////////////////////////////////////////////////// RCWeb
 
-import RCWebPlatform1 from "../../assets/img/core-img/platform1.png"
+import RCWebPlatform1 from "../../assets/img/core-img/platform1.gif"
 import RCWebAbout1 from "../../assets/img/core-img/about-1.png"
 import RCWebJoinBottom from "../../assets/img/svg/join-bottom.svg"
 
