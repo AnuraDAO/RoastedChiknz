@@ -14,17 +14,21 @@ const SecHeroSection = ({
     }) => {
 
       async function roastAChicken(){
-        var roastChickenContractAddr = "0x48D9c5db52ab66dfb6eDCc1041375E66b1baEA36";
+        var roastChickenContractAddr = "0x0951232B828405CaEd03f68B27dd06DA67992D14";
         var provider = new ethers.providers.Web3Provider(window.ethereum);
         await provider.send("eth_requestAccounts", []);
         var signer = provider.getSigner();
         //Mint the chicken
-        var roastChickenABIMint = [{"inputs":[{"internalType":"address","name":"to","type":"address"}],"name":"safeMint","outputs":[],"stateMutability":"nonpayable","type":"function"}];
+        var roastChickenABIMint = [{"inputs":[{"internalType":"address","name":"to","type":"address"}],"name":"safeMint","outputs":[],"stateMutability":"nonpayable","type":"function"},{ "inputs": [], "name": "returnTokenId", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function"}];
         var roastChickenContract = new ethers.Contract(roastChickenContractAddr,JSON.stringify(roastChickenABIMint),provider);
+        var upcomingChikn = await roastChickenContract.returnTokenId();
         var signedContract = roastChickenContract.connect(signer);
         var roastChicken = await signedContract.safeMint(window.ethereum.selectedAddress,{value: 0});
         var finalChicken = await roastChicken.wait(1);
-
+        upcomingChikn.toString();
+        document.getElementById('chiknImage').src="https://roasted.mypinata.cloud/ipfs/QmbEaGUtDCUT69BhXx18hybgob8gQb8MjdgeQJqHn3x5jA/"+upcomingChikn.toString()+".png"
+        document.getElementById('chiknImage').style.maxWidth = "23vw";
+        document.getElementById('chiknImage').style.marginLeft = "250px";
 
       }
 
@@ -51,7 +55,7 @@ const SecHeroSection = ({
               <div className="col-lg-6">
                 {AnuraWebOr4Or5Or6 && (
                   <div className="illusto-2">
-                    <img draggable="false" src={img} alt="" />
+                    <img draggable="false" src={img} alt="" id="chiknImage" />
                   </div>
                   
                 )}
