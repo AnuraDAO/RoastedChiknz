@@ -8,7 +8,7 @@ walletButton.addEventListener('click', async () => {
 
 async function getAccount() {
         const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
-       await ethereum.request({ method: 'wallet_switchEthereumChain', params: [{ chainId: '0xa869' }], }); //Fuji Testnet 0xa869 //Mainnet 0xa86a
+       await ethereum.request({ method: 'wallet_switchEthereumChain', params: [{ chainId: '0xa86a' }], }); //Fuji Testnet 0xa869 //Mainnet 0xa86a
         const account = accounts[0];
         console.log("Found Accounts",accounts);
         walletButton.textContent = "Connected 🔌";

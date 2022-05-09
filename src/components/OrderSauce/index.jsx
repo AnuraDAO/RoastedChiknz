@@ -18,10 +18,10 @@ const OrderSauce = ({
 
         console.log('Buying Sauce');
         var provider = new ethers.providers.Web3Provider(window.ethereum);
-        var saucesContractAddr = "0x7e1978C0A103B0aF9223f201D6A8f7C76D67F775";
+        var saucesContractAddr = "0x952Db3f9E2871646c71C3dA11b12A8937390340f";
         await provider.send("eth_requestAccounts", []);
         var signer = provider.getSigner();
-        var ribtContractAddr = "0x25eAD075012D4aDDFc7558414EC3C3F53D79803c";
+        var ribtContractAddr = "0x302Abf007C2045F1bC0867a4b7abaaE2152e0EB3";
         var ribtABI = [{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"}];
         var contract = new ethers.Contract(ribtContractAddr, JSON.stringify(ribtABI), provider);
         var allowance = await contract.allowance(window.ethereum.selectedAddress,saucesContractAddr);

@@ -14,7 +14,7 @@ const SecHeroSection = ({
     }) => {
 
       async function roastAChicken(){
-        var roastChickenContractAddr = "0x0951232B828405CaEd03f68B27dd06DA67992D14";
+        var roastChickenContractAddr = "0xc51F9Dae57850d07554777680f2679808C87841C";
         var provider = new ethers.providers.Web3Provider(window.ethereum);
         await provider.send("eth_requestAccounts", []);
         var signer = provider.getSigner();
