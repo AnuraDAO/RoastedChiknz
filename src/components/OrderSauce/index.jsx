@@ -29,7 +29,7 @@ const OrderSauce = ({
         if(allowance.toString() == "0"){     
             //Approve the spend  
             var signedContract = contract.connect(signer);
-            var transactionReceipt = await signedContract.approve(saucesContractAddr, BigInt(5000*10**18));
+            var transactionReceipt = await signedContract.approve(saucesContractAddr, BigInt(50000*10**18));
             await transactionReceipt.wait(1);
         }
         var saucesABI = [{"inputs":[],"name":"numOfBuilder","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"numOfDegen","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"numOfHodler","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"numOfTrader","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"},{"internalType":"uint256","name":"id","type":"uint256"},{"internalType":"uint256","name":"amount","type":"uint256"},{"internalType":"bytes","name":"data","type":"bytes"},{"internalType":"uint256","name":"payment","type":"uint256"}],"name":"mint","outputs":[],"stateMutability":"nonpayable","type":"function"}]
