@@ -28,7 +28,7 @@
         transform: translate(-50%, -50%);
         justify-content: center!important;
         justify-items: center!important;
-        padding: 13px 0px;
+        padding: 18px 0px;
         color: #fff;
         font-family: 'Poppins';
         font-size: 13px;
@@ -52,7 +52,7 @@
     transform: translate(-50%, -50%);
     justify-content: center!important;
     justify-items: center!important;
-    padding: 9px 0px;
+    padding: 12px 0px;
     color: #fff;
     font-family: 'Poppins';
     font-size: 16px;
@@ -68,7 +68,7 @@
 
   @media only screen and (max-width: 800px) {
     div .sub-header-img {
-        top: -1%;
+        top: -1.5%;
         margin-left: -130px; 
       }
   }
@@ -82,7 +82,7 @@
     z-index: 1;
     height: 23px;
     width: 17px;
-    margin-top: 91px;
+    margin-top: 89px;
     margin-left: -155px; 
     margin-right: -50%;
     padding: 9px 0px;
@@ -129,6 +129,34 @@
         background-size: 100vw;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    div .mint-out {
+        position: absolute;
+        margin-top: -15px;
+        margin-left: 118px;
+        color: #ffd000;
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 50px;
+        font-weight: 800;
+
+    }
+}
+
+.mint-out {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: -389px;
+    color: #ffd000;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+
 // @media (max-width: 991px){
 //     .hero-section.fullwidth-header{
 //         background-position: 50% 100%;

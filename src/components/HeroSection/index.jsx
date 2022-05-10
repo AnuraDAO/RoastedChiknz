@@ -57,6 +57,7 @@ const SecHeroSection = ({
               <div className="col-lg-6">
                 {AnuraWebOr4Or5Or6 && (
                   <div className="illusto-2">
+                    <div className="mint-out"> Minted Out!</div>
 
                     <img draggable="false" src={img} alt="" id="chiknImage" />
                   </div>
